@@ -1,8 +1,6 @@
 import 'dart:async';
-
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
-
 import '../../../data/model/product_model.dart';
 import '../../../data/json_services/json_services.dart';
 

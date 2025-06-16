@@ -51,8 +51,9 @@ class RegistrationController extends GetxController {
         phone: phone,
       );
 
-      users.add(newUser);;
-      isLoggedIn.value = true;
+      users.add(newUser);
+      Get.toNamed(Routes.LOGIN);
+
 
       return true;
     } catch (e) {

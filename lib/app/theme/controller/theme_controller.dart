@@ -3,8 +3,6 @@ import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class ThemeController extends GetxController {
-
-
   static ThemeController get to => Get.find<ThemeController>();
 
   final RxBool _isDark = false.obs;
@@ -27,7 +25,7 @@ class ThemeController extends GetxController {
     scaffoldBackgroundColor: Colors.white,
     cardColor: Colors.white,
     primaryColor: Colors.green,
-    primaryColorLight:Colors.black87,
+    primaryColorLight: Colors.black87,
     appBarTheme: const AppBarTheme(
       backgroundColor: Colors.white,
       elevation: 0,
@@ -70,6 +68,10 @@ class ThemeController extends GetxController {
       bodyLarge: TextStyle(color: Colors.black),
       bodyMedium: TextStyle(color: Colors.black),
     ),
+    dialogTheme: DialogThemeData(backgroundColor: Colors.white),
+      textSelectionTheme: TextSelectionThemeData(
+          cursorColor: Colors.black87
+      )
   );
 
   // Your dark theme configuration
@@ -77,7 +79,7 @@ class ThemeController extends GetxController {
     brightness: Brightness.dark,
     scaffoldBackgroundColor: Colors.grey[900],
     cardColor: Colors.grey[800],
-    primaryColorLight:Colors.white,
+    primaryColorLight: Colors.white,
     primaryColor: Colors.grey,
     secondaryHeaderColor: Colors.black87,
     appBarTheme: AppBarTheme(
@@ -98,7 +100,7 @@ class ThemeController extends GetxController {
     ),
     textButtonTheme: TextButtonThemeData(
       style: ButtonStyle(
-       // backgroundColor: MaterialStateProperty.all(Colors.black),
+        // backgroundColor: MaterialStateProperty.all(Colors.black),
         foregroundColor: WidgetStateProperty.all(Colors.grey),
       ),
     ),
@@ -109,7 +111,7 @@ class ThemeController extends GetxController {
         borderSide: BorderSide(color: Colors.grey),
       ),
       enabledBorder: OutlineInputBorder(
-        borderSide:  BorderSide(color: Colors.grey),
+        borderSide: BorderSide(color: Colors.grey),
       ),
       labelStyle: TextStyle(color: Colors.grey[300]),
       hintStyle: TextStyle(color: Colors.grey[500]),
@@ -129,12 +131,10 @@ class ThemeController extends GetxController {
       bodyLarge: TextStyle(color: Colors.grey[300]),
       bodyMedium: TextStyle(color: Colors.grey[300]),
     ),
-    bottomSheetTheme: BottomSheetThemeData(
-      backgroundColor:Colors.red[900]
-    ),
-
-
-
+    dialogTheme: DialogThemeData(backgroundColor: Colors.grey[800]),
+    textSelectionTheme: TextSelectionThemeData(
+      cursorColor: Colors.grey
+    )
   );
 
   @override
@@ -142,12 +142,11 @@ class ThemeController extends GetxController {
     super.onInit();
     _loadThemeFromPrefs();
     ever(_themeMode, (ThemeMode mode) {
-      _isDark.value = mode == ThemeMode.dark ||
-          (mode == ThemeMode.system &&
-              Get.isPlatformDarkMode);
+      _isDark.value =
+          mode == ThemeMode.dark ||
+          (mode == ThemeMode.system && Get.isPlatformDarkMode);
     });
   }
-
 
   // Load theme preference from SharedPreferences
   Future<void> _loadThemeFromPrefs() async {
@@ -167,9 +166,9 @@ class ThemeController extends GetxController {
       _themeMode.value = mode;
       Get.changeThemeMode(mode);
 
-      _isDark.value = mode == ThemeMode.dark ||
-          (mode == ThemeMode.system &&
-              Get.isPlatformDarkMode);
+      _isDark.value =
+          mode == ThemeMode.dark ||
+          (mode == ThemeMode.system && Get.isPlatformDarkMode);
 
       final prefs = await SharedPreferences.getInstance();
       await prefs.setString(_themePrefKey, mode.toString().split('.').last);

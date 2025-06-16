@@ -12,69 +12,71 @@ import '../controllers/login_controller.dart';
 class LoginView extends GetView<LoginController> {
    LoginView({super.key});
    final _registrationsController=Get.put(RegistrationController());
-   final _emailController = TextEditingController(text: "robiul@e.com");
-   final _passwordController = TextEditingController(text: "12345678");
+   final _emailController = TextEditingController();
+   final _passwordController = TextEditingController();
    final _formKey = GlobalKey<FormState>();
 
    @override
    Widget build(BuildContext context) {
      return Scaffold(
        appBar: AppBar(title: Text('Login')),
-       body: Padding(
-         padding: EdgeInsets.all(20),
-         child: Form(
-           key: _formKey,
-           child: Column(
-             mainAxisAlignment: MainAxisAlignment.center,
-             children: [
-               Lottie.asset( "assets/img/login.json",height: 250),
-               TextFormField(
-                 controller: _emailController,
-                 decoration: InputDecoration(
-                   labelText: 'Email',
-                   prefixIcon: Icon(Icons.email),
-                   border: OutlineInputBorder(),
+       body: SingleChildScrollView(
+         child: Padding(
+           padding: EdgeInsets.all(20),
+           child: Form(
+             key: _formKey,
+             child: Column(
+               mainAxisAlignment: MainAxisAlignment.center,
+               children: [
+                 Lottie.asset( "assets/img/login.json",height: 250),
+                 TextFormField(
+                   controller: _emailController,
+                   decoration: InputDecoration(
+                     labelText: 'Email',
+                     prefixIcon: Icon(Icons.email),
+                     border: OutlineInputBorder(),
+                   ),
+                   validator: (value) {
+                     if (value == null || value.isEmpty) return 'Enter email';
+                     if (!value.isEmail) return 'Enter valid email';
+                     return null;
+                   },
                  ),
-                 validator: (value) {
-                   if (value == null || value.isEmpty) return 'Enter email';
-                   if (!value.isEmail) return 'Enter valid email';
-                   return null;
-                 },
-               ),
-               SizedBox(height: 20),
-               TextFormField(
-                 controller: _passwordController,
-                 obscureText: true,
-                 decoration: InputDecoration(
-                   labelText: 'Password',
-                   prefixIcon: Icon(Icons.lock),
-                   border: OutlineInputBorder(),
+                 SizedBox(height: 20),
+                 TextFormField(
+                   controller: _passwordController,
+                   obscureText: true,
+                   decoration: InputDecoration(
+                     labelText: 'Password',
+                     prefixIcon: Icon(Icons.lock),
+                     border: OutlineInputBorder(),
+                   ),
+                   validator: (value) {
+                     if (value == null || value.isEmpty) return 'Enter password';
+                     if (value.length < 6) return 'Password too short';
+                     return null;
+                   },
                  ),
-                 validator: (value) {
-                   if (value == null || value.isEmpty) return 'Enter password';
-                   if (value.length < 6) return 'Password too short';
-                   return null;
-                 },
-               ),
-               SizedBox(height: 30),
-               Obx(() => _registrationsController.isLoggedIn.value
-                   ? CircularProgressIndicator()
-                   : ElevatedButton(
-                 onPressed: _login,
-                 style: ElevatedButton.styleFrom(
-                   minimumSize: Size(double.infinity, 50),
+                 SizedBox(height: 30),
+                 Obx(() => _registrationsController.isLoggedIn.value
+                     ? CircularProgressIndicator()
+                     : ElevatedButton(
+                   onPressed: _login,
+                   style: ElevatedButton.styleFrom(
+                     minimumSize: Size(double.infinity, 50),
+                   ),
+                   child: Text('Login'),
                  ),
-                 child: Text('Login'),
-               ),
-               ),
-               TextButton(
-                 onPressed: () => Get.toNamed(Routes.REGISTRATION),
-                 child: Text('Create Account'),
-               ),
-             ],
+                 ),
+                 TextButton(
+                   onPressed: () => Get.toNamed(Routes.REGISTRATION),
+                   child: Text('Create Account'),
+                 ),
+               ],
+             ),
            ),
          ),
-       ),
+       )
      );
    }
 

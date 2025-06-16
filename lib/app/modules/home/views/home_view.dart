@@ -18,6 +18,7 @@ class HomeView extends GetView<HomeController> {
     return Scaffold(
       appBar: _buildAppBar(),
       body: Obx(() {
+
         if (controller.isLoading.value) {
           return const Center(child: CircularProgressIndicator());
         } else {
@@ -173,18 +174,23 @@ class HomeView extends GetView<HomeController> {
             itemCount: categories.length,
             scrollDirection: Axis.horizontal,
             itemBuilder: (context, index) {
-              return Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Container(
-                  decoration: BoxDecoration(
-                    color: Theme.of(context).primaryColor,
-                    borderRadius: BorderRadius.circular(5),
-                  ),
-                  child: Padding(
-                    padding: const EdgeInsets.all(5),
-                    child: Text(
-                      categories[index],
-                      style:  TextStyle(color: Theme.of(context).scaffoldBackgroundColor,),
+              return GestureDetector(
+                onTap: (){
+                  Get.toNamed(Routes.CATEGORY_PRODUCTS,arguments:categories[index]);
+                },
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Container(
+                    decoration: BoxDecoration(
+                      color: Theme.of(context).primaryColor,
+                      borderRadius: BorderRadius.circular(5),
+                    ),
+                    child: Padding(
+                      padding: const EdgeInsets.all(5),
+                      child: Text(
+                        categories[index],
+                        style:  TextStyle(color: Theme.of(context).scaffoldBackgroundColor,),
+                      ),
                     ),
                   ),
                 ),

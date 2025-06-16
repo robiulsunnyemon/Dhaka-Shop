@@ -9,7 +9,7 @@ class SplashView extends GetView<SplashController> {
   const SplashView({super.key});
   @override
   Widget build(BuildContext context) {
-    Future.delayed(Duration(seconds: 2), () {
+    Future.delayed(Duration(seconds: 3), () {
       Get.offNamed(Routes.ONBOARDING); // Or Routes.LOGIN if skipping onboarding
     });
 
