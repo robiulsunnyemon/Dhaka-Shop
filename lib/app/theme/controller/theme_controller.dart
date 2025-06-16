@@ -4,8 +4,6 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 class ThemeController extends GetxController {
 
-  final Color lightBottomSheetBackground = Colors.white;
-  final Color? darkBottomSheetBackground = Colors.grey[900];
 
   static ThemeController get to => Get.find<ThemeController>();
   // Reactive theme mode variable
@@ -19,6 +17,7 @@ class ThemeController extends GetxController {
 
   // Your light theme configuration
   final ThemeData lightTheme = ThemeData(
+    brightness: Brightness.light,
     scaffoldBackgroundColor: Colors.white,
     primaryColor: Colors.green,
     appBarTheme: const AppBarTheme(
@@ -82,21 +81,24 @@ class ThemeController extends GetxController {
     ),
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ButtonStyle(
-        backgroundColor: MaterialStateProperty.all(Colors.greenAccent[400]),
-        foregroundColor: MaterialStateProperty.all(Colors.black),
+        backgroundColor: MaterialStateProperty.all(Colors.grey),
+        foregroundColor: MaterialStateProperty.all(Colors.white),
       ),
     ),
     textButtonTheme: TextButtonThemeData(
       style: ButtonStyle(
        // backgroundColor: MaterialStateProperty.all(Colors.black),
-        foregroundColor: MaterialStateProperty.all(Colors.greenAccent[400]),
+        foregroundColor: MaterialStateProperty.all(Colors.grey),
       ),
     ),
     inputDecorationTheme: InputDecorationTheme(
       filled: true,
       fillColor: Colors.grey[800],
       focusedBorder: OutlineInputBorder(
-        borderSide: BorderSide(color: Colors.greenAccent[400]!),
+        borderSide: BorderSide(color: Colors.grey),
+      ),
+      enabledBorder: OutlineInputBorder(
+        borderSide:  BorderSide(color: Colors.grey),
       ),
       labelStyle: TextStyle(color: Colors.grey[300]),
       hintStyle: TextStyle(color: Colors.grey[500]),
@@ -107,7 +109,7 @@ class ThemeController extends GetxController {
       unselectedItemColor: Colors.grey[500],
     ),
     progressIndicatorTheme: ProgressIndicatorThemeData(
-      color: Colors.greenAccent[400],
+      color: Colors.grey,
       //circularTrackColor: Colors.grey[700],
     ),
     dividerColor: Colors.grey[700],
@@ -117,8 +119,10 @@ class ThemeController extends GetxController {
       bodyMedium: TextStyle(color: Colors.grey[300]),
     ),
     bottomSheetTheme: BottomSheetThemeData(
-      backgroundColor:Colors.grey[900]
+      backgroundColor:Colors.red[900]
     ),
+
+
 
   );
 

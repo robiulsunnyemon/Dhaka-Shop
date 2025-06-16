@@ -167,11 +167,22 @@ class ProfileView extends GetView<ProfileController> {
             children: [
               TextField(
                 controller: nameController,
-                decoration: const InputDecoration(labelText: 'Name'),
+                decoration: const InputDecoration(
+                    labelText: 'Name',
+                  border: OutlineInputBorder(
+                    borderSide: BorderSide.none
+                  ),
+                ),
               ),
+              SizedBox(height: 15,),
               TextField(
                 controller: emailController,
-                decoration: const InputDecoration(labelText: 'Email'),
+                decoration: const InputDecoration(
+                    labelText: 'Email',
+                  border: OutlineInputBorder(
+                      borderSide: BorderSide.none
+                  ),
+                ),
               ),
             ],
           ),
