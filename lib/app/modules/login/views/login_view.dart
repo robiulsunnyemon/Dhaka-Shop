@@ -68,6 +68,7 @@ class LoginView extends GetView<LoginController> {
                    child: Text('Login'),
                  ),
                  ),
+                 SizedBox(height: 10,),
                  TextButton(
                    onPressed: () => Get.toNamed(Routes.REGISTRATION),
                    child: Text('Create Account'),
