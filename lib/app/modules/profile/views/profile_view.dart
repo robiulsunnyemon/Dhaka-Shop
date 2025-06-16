@@ -212,9 +212,9 @@ class ProfileView extends GetView<ProfileController> {
       enableDrag: false,
       isScrollControlled: true,
       Container(
-        decoration: const BoxDecoration(
-          color: Colors.white,
-          borderRadius: BorderRadius.only(
+        decoration: BoxDecoration(
+          color: Get.theme.cardColor,
+          borderRadius: const BorderRadius.only(
             topLeft: Radius.circular(20),
             topRight: Radius.circular(20),
           ),
@@ -225,14 +225,14 @@ class ProfileView extends GetView<ProfileController> {
           children: [
             ListTile(
               leading: const Icon(Icons.camera_alt, color: Colors.green),
-              title: const Text('Take Photo',style: TextStyle(color: Colors.grey),),
+              title: const Text('Take Photo',),
               onTap: () {
                 Get.back(result: 'camera');
               },
             ),
             ListTile(
               leading: const Icon(Icons.photo_library, color: Colors.green),
-              title: const Text('Choose from Gallery',style: TextStyle(color: Colors.grey),),
+              title: const Text('Choose from Gallery',),
               onTap: () {
                 Get.back(result: 'gallery');
               },

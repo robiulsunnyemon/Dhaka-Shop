@@ -32,7 +32,8 @@ class HomeView extends GetView<HomeController> {
                   arguments: "FlashDeals",
                 ),
               ),
-              _buildHorizontalProductList(controller.flashDeals),
+
+              _buildHorizontalProductList(products: controller.flashDeals,scrollController: controller.flashDealsScrollController, isScrolling: true),
               _buildDiscountBanner(),
               _buildSectionTitle(
                 title: "Top Selling Laptop",
@@ -41,7 +42,7 @@ class HomeView extends GetView<HomeController> {
                   arguments: "Laptop",
                 ),
               ),
-              _buildHorizontalProductList(controller.laptopProducts),
+              _buildHorizontalProductList(products: controller.laptopProducts,isScrolling: false),
               _buildYouMayLikeSection(),
               _buildProductGrid(),
             ],
@@ -68,7 +69,7 @@ class HomeView extends GetView<HomeController> {
           width: 250,
           height: 40,
           decoration: BoxDecoration(
-            color: Colors.white,
+            color: Get.theme.cardColor,
             borderRadius: BorderRadius.circular(10),
             border: Border.all(color: Colors.grey),
           ),
@@ -80,12 +81,13 @@ class HomeView extends GetView<HomeController> {
                 SizedBox(width: 8),
                 Text(
                   "Search",
-                  style: TextStyle(fontSize: 17, color: Colors.black54),
+                  style: TextStyle(fontSize: 17, color: Colors.grey),
                 ),
               ],
             ),
           ),
         ),
+
       ),
       centerTitle: true,
     );
@@ -111,7 +113,7 @@ class HomeView extends GetView<HomeController> {
                 controller.currentBannerIndex.value = index;
               },
             ),
-            items: controller.bannerImages.map((imageUrl) {
+            items: controller.sliderImages.map((imageUrl) {
               return Builder(
                 builder: (BuildContext context) {
                   return Container(
@@ -132,7 +134,7 @@ class HomeView extends GetView<HomeController> {
           const SizedBox(height: 8),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
-            children: controller.bannerImages.asMap().entries.map((entry) {
+            children: controller.sliderImages.asMap().entries.map((entry) {
               return Container(
                 width: 8.0,
                 height: 8.0,
@@ -175,14 +177,14 @@ class HomeView extends GetView<HomeController> {
                 padding: const EdgeInsets.all(8.0),
                 child: Container(
                   decoration: BoxDecoration(
-                    color: Colors.green.withOpacity(0.8),
+                    color: Theme.of(context).primaryColor,
                     borderRadius: BorderRadius.circular(5),
                   ),
                   child: Padding(
                     padding: const EdgeInsets.all(5),
                     child: Text(
                       categories[index],
-                      style: const TextStyle(color: Colors.white),
+                      style:  TextStyle(color: Theme.of(context).scaffoldBackgroundColor,),
                     ),
                   ),
                 ),
@@ -198,9 +200,7 @@ class HomeView extends GetView<HomeController> {
   SliverToBoxAdapter _buildSectionTitle({
     required String title,
     required VoidCallback onTap,
-  })
-  {
-    return SliverToBoxAdapter(
+  }) {return SliverToBoxAdapter(
       child: Padding(
         padding: const EdgeInsets.symmetric(vertical: 12.0, horizontal: 10),
         child: HeadingButtonWidget(
@@ -208,28 +208,35 @@ class HomeView extends GetView<HomeController> {
           onTap: onTap,
         ),
       ),
-    );
-  }
+    );}
 
   // Horizontal Product List Widget
-  SliverToBoxAdapter _buildHorizontalProductList(List<Product> products) {
+  SliverToBoxAdapter _buildHorizontalProductList({required List<Product> products,ScrollController? scrollController,required bool isScrolling}) {
     return SliverToBoxAdapter(
       child: SizedBox(
         height: 200,
-        child: ListView.builder(
+        child: isScrolling? ListView.builder(
+          controller: scrollController,
           scrollDirection: Axis.horizontal,
-          padding: const EdgeInsets.symmetric(horizontal: 8),
+          padding: const EdgeInsets.symmetric(horizontal: 2),
           itemCount: products.length,
           itemBuilder: (context, index) {
-            return Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: SizedBox(
-                width: 120,
-                child: ProductCard(product: products[index]),
-              ),
+            return SizedBox(
+              width: 140,
+              child: ProductCard(product: products[index]),
             );
           },
-        ),
+        ):ListView.builder(
+          scrollDirection: Axis.horizontal,
+          padding: const EdgeInsets.symmetric(horizontal: 2),
+          itemCount: products.length,
+          itemBuilder: (context, index) {
+            return SizedBox(
+              width: 140,
+              child: ProductCard(product: products[index]),
+            );
+          },
+        )
       ),
     );
   }
@@ -296,3 +303,6 @@ class HomeView extends GetView<HomeController> {
     );
   }
 }
+
+
+

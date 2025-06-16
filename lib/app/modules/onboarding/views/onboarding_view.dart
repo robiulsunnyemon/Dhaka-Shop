@@ -46,7 +46,7 @@ class OnboardingView extends GetView<OnboardingController> {
                   count: 3,
                   effect: WormEffect(
                     dotColor: Colors.grey,
-                    activeDotColor: Colors.green,
+                    activeDotColor: Colors.white.withValues(alpha: .5),
                     dotWidth: 10,
                     dotHeight: 10
                   ),

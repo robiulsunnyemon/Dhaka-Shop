@@ -1,23 +1,12 @@
 import 'package:get/get.dart';
 
-class ProductDetailsController extends GetxController {
-  //TODO: Implement ProductDetailsController
+import '../../../data/model/product_model.dart';
 
-  final count = 0.obs;
+class ProductDetailsController extends GetxController {
+  late final Product product;
   @override
   void onInit() {
     super.onInit();
+    product = Get.arguments as Product;
   }
-
-  @override
-  void onReady() {
-    super.onReady();
-  }
-
-  @override
-  void onClose() {
-    super.onClose();
-  }
-
-  void increment() => count.value++;
 }

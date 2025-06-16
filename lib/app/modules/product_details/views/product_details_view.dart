@@ -344,10 +344,8 @@ class ProductDetailsView extends GetView<ProductDetailsController> {
       Container(
         padding: const EdgeInsets.all(16),
         decoration: BoxDecoration(
-          color: themeController.isDarkMode
-              ? Colors.grey[900]
-              : Colors.white,
-          borderRadius: const BorderRadius.vertical(top: Radius.circular(16)),
+          borderRadius: const BorderRadius.vertical(top: Radius.circular(16),),
+          color: Get.theme.cardColor
         ),
         child: SingleChildScrollView(
           child: Column(
@@ -358,30 +356,17 @@ class ProductDetailsView extends GetView<ProductDetailsController> {
                 style: TextStyle(
                   fontSize: 18,
                   fontWeight: FontWeight.bold,
-                  color: themeController.isDarkMode
-                      ? Colors.white
-                      : Colors.black,
+
                 ),
               ),
               const SizedBox(height: 16),
               TextField(
                 decoration: InputDecoration(
                   labelText: 'Your Name',
-                  labelStyle: TextStyle(
-                    color: themeController.isDarkMode
-                        ? Colors.grey[300]
-                        : Colors.grey[700],
-                  ),
                   border: const OutlineInputBorder(),
-                  filled: themeController.isDarkMode,
-                  fillColor: themeController.isDarkMode
-                      ? Colors.grey[800]
-                      : null,
                 ),
                 style: TextStyle(
-                  color: themeController.isDarkMode
-                      ? Colors.white
-                      : Colors.black,
+                  color: Colors.black87,
                 ),
               ),
               const SizedBox(height: 16),
@@ -389,11 +374,6 @@ class ProductDetailsView extends GetView<ProductDetailsController> {
                 children: [
                   Text(
                     'Rating:',
-                    style: TextStyle(
-                      color: themeController.isDarkMode
-                          ? Colors.white
-                          : Colors.black,
-                    ),
                   ),
                   const SizedBox(width: 8),
                   _buildRatingStars(3),
@@ -404,32 +384,14 @@ class ProductDetailsView extends GetView<ProductDetailsController> {
                 maxLines: 3,
                 decoration: InputDecoration(
                   labelText: 'Your Review',
-                  labelStyle: TextStyle(
-                    color: themeController.isDarkMode
-                        ? Colors.grey[300]
-                        : Colors.grey[700],
-                  ),
                   border: const OutlineInputBorder(),
-                  filled: themeController.isDarkMode,
-                  fillColor: themeController.isDarkMode
-                      ? Colors.grey[800]
-                      : null,
-                ),
-                style: TextStyle(
-                  color: themeController.isDarkMode
-                      ? Colors.white
-                      : Colors.black,
                 ),
               ),
               const SizedBox(height: 16),
               ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: themeController.isDarkMode
-                      ? Colors.greenAccent[400]
-                      : Colors.green,
-                  foregroundColor: themeController.isDarkMode
-                      ? Colors.black
-                      : Colors.white,
+                  backgroundColor: Colors.green,
+                  foregroundColor: Colors.white,
                 ),
                 onPressed: () {
                   Get.back();

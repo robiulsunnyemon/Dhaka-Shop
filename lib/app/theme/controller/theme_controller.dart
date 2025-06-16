@@ -6,6 +6,12 @@ class ThemeController extends GetxController {
 
 
   static ThemeController get to => Get.find<ThemeController>();
+
+  final RxBool _isDark = false.obs;
+
+  // Expose the boolean value
+  bool get isDark => _isDark.value;
+
   // Reactive theme mode variable
   final Rx<ThemeMode> _themeMode = ThemeMode.system.obs;
 
@@ -19,7 +25,9 @@ class ThemeController extends GetxController {
   final ThemeData lightTheme = ThemeData(
     brightness: Brightness.light,
     scaffoldBackgroundColor: Colors.white,
+    cardColor: Colors.white,
     primaryColor: Colors.green,
+    primaryColorLight:Colors.black87,
     appBarTheme: const AppBarTheme(
       backgroundColor: Colors.white,
       elevation: 0,
@@ -68,7 +76,10 @@ class ThemeController extends GetxController {
   final ThemeData darkTheme = ThemeData(
     brightness: Brightness.dark,
     scaffoldBackgroundColor: Colors.grey[900],
-    primaryColor: Colors.greenAccent[400],
+    cardColor: Colors.grey[800],
+    primaryColorLight:Colors.white,
+    primaryColor: Colors.grey,
+    secondaryHeaderColor: Colors.black87,
     appBarTheme: AppBarTheme(
       backgroundColor: Colors.grey[850],
       elevation: 0,
@@ -81,14 +92,14 @@ class ThemeController extends GetxController {
     ),
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ButtonStyle(
-        backgroundColor: MaterialStateProperty.all(Colors.grey),
-        foregroundColor: MaterialStateProperty.all(Colors.white),
+        backgroundColor: WidgetStateProperty.all(Colors.grey),
+        foregroundColor: WidgetStateProperty.all(Colors.white),
       ),
     ),
     textButtonTheme: TextButtonThemeData(
       style: ButtonStyle(
        // backgroundColor: MaterialStateProperty.all(Colors.black),
-        foregroundColor: MaterialStateProperty.all(Colors.grey),
+        foregroundColor: WidgetStateProperty.all(Colors.grey),
       ),
     ),
     inputDecorationTheme: InputDecorationTheme(
@@ -130,7 +141,13 @@ class ThemeController extends GetxController {
   void onInit() {
     super.onInit();
     _loadThemeFromPrefs();
+    ever(_themeMode, (ThemeMode mode) {
+      _isDark.value = mode == ThemeMode.dark ||
+          (mode == ThemeMode.system &&
+              Get.isPlatformDarkMode);
+    });
   }
+
 
   // Load theme preference from SharedPreferences
   Future<void> _loadThemeFromPrefs() async {
@@ -149,6 +166,10 @@ class ThemeController extends GetxController {
     try {
       _themeMode.value = mode;
       Get.changeThemeMode(mode);
+
+      _isDark.value = mode == ThemeMode.dark ||
+          (mode == ThemeMode.system &&
+              Get.isPlatformDarkMode);
 
       final prefs = await SharedPreferences.getInstance();
       await prefs.setString(_themePrefKey, mode.toString().split('.').last);
