@@ -1,0 +1,1120 @@
+[
+  {
+    "id": 1,
+    "title": "OnePlus 11 5G",
+    "description": "6.7 inch Fluid AMOLED, 128GB storage, Snapdragon 8 Gen 2",
+    "price": 699.99,
+    "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Mobile",
+    "specifications": {
+      "Display": "6.7-inch Fluid AMOLED, 120Hz refresh rate",
+      "Processor": "Snapdragon 8 Gen 2",
+      "RAM": "8GB/12GB LPDDR5X",
+      "Storage": "128GB/256GB UFS 4.0",
+      "Rear Camera": "50MP (main) + 48MP (ultrawide) + 32MP (telephoto)",
+      "Front Camera": "16MP",
+      "Battery": "5000mAh with 100W fast charging",
+      "OS": "OxygenOS based on Android 13",
+      "Connectivity": "5G, Wi-Fi 6E, Bluetooth 5.3",
+      "Audio": "Stereo speakers, Dolby Atmos"
+    },
+    "reviews": [
+      {
+        "author": "Alex",
+        "rating": 5,
+        "comment": "Blazing fast performance and superb battery life!"
+      },
+      {
+        "author": "Priya",
+        "rating": 4,
+        "comment": "Camera quality is excellent, but the software could improve."
+      },
+      {
+        "author": "Jordan",
+        "rating": 5,
+        "comment": "Best value flagship in 2023."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Xiaomi Redmi Note 12 Pro",
+    "description": "6.67 inch AMOLED, 256GB storage, 108MP camera",
+    "price": 299.99,
+    "image": "https://images.unsplash.com/photo-1646753522408-077ef9839300?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Mobile",
+    "specifications": {
+      "Display": "6.67-inch AMOLED, 120Hz",
+      "Processor": "MediaTek Dimensity 1080",
+      "RAM": "6GB/8GB",
+      "Storage": "128GB/256GB",
+      "Rear Camera": "108MP (main) + 8MP (ultrawide) + 2MP (macro)",
+      "Front Camera": "16MP",
+      "Battery": "5000mAh, 67W fast charging",
+      "OS": "MIUI 14 (Android 12)",
+      "Connectivity": "5G, IR blaster",
+      "Audio": "Dual speakers, 3.5mm jack"
+    },
+    "reviews": [
+      {
+        "author": "Sam",
+        "rating": 4,
+        "comment": "Amazing display for the price!"
+      },
+      {
+        "author": "Lina",
+        "rating": 5,
+        "comment": "The 108MP camera captures stunning details"
+      },
+      {
+        "author": "Rahul",
+        "rating": 4,
+        "comment": "Great battery life but MIUI has some bloatware"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Google Pixel 7 Pro",
+    "description": "6.7 inch OLED, 128GB, Tensor G2 chip, 50MP camera",
+    "price": 899.99,
+    "image": "https://images.unsplash.com/photo-1664478546384-d57ffe74a78c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Mobile",
+    "specifications": {
+      "Display": "6.7-inch LTPO OLED, 120Hz",
+      "Processor": "Google Tensor G2",
+      "RAM": "12GB LPDDR5",
+      "Storage": "128GB/256GB",
+      "Rear Camera": "50MP (main) + 12MP (ultrawide) + 48MP (telephoto)",
+      "Front Camera": "10.8MP",
+      "Battery": "5000mAh, 30W wired, 23W wireless charging",
+      "OS": "Android 13",
+      "Connectivity": "5G, Wi-Fi 6E, Bluetooth 5.2",
+      "Camera Features": "Super Res Zoom, Magic Eraser, Night Sight"
+    },
+    "reviews": [
+      {
+        "author": "Emily",
+        "rating": 5,
+        "comment": "The best smartphone camera I've ever used"
+      },
+      {
+        "author": "David",
+        "rating": 4,
+        "comment": "Clean Android experience but battery could be better"
+      },
+      {
+        "author": "Sophia",
+        "rating": 5,
+        "comment": "Magic Eraser is truly magical for photo editing"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Samsung Galaxy Z Flip 4",
+    "description": "6.7 inch Foldable AMOLED, 256GB, Snapdragon 8+ Gen 1",
+    "price": 999.99,
+    "image": "https://images.unsplash.com/photo-1664474611585-9a0bb5e31b0b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Mobile",
+    "specifications": {
+      "Main Display": "6.7-inch Dynamic AMOLED 2X, 120Hz",
+      "Cover Display": "1.9-inch Super AMOLED",
+      "Processor": "Snapdragon 8+ Gen 1",
+      "RAM": "8GB",
+      "Storage": "128GB/256GB",
+      "Rear Camera": "12MP (wide) + 12MP (ultrawide)",
+      "Front Camera": "10MP",
+      "Battery": "3700mAh, 25W fast charging",
+      "OS": "Android 12 with One UI 4.1.1",
+      "Durability": "IPX8 water resistant, Armor Aluminum frame",
+      "Special Features": "Flex mode, Hands-free video recording"
+    },
+    "reviews": [
+      {
+        "author": "Jason",
+        "rating": 4,
+        "comment": "Love the compact foldable design but battery life is average"
+      },
+      {
+        "author": "Mia",
+        "rating": 5,
+        "comment": "Perfect for selfies using the main cameras"
+      },
+      {
+        "author": "Ethan",
+        "rating": 4,
+        "comment": "Innovative design but needs better battery optimization"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Realme GT Neo 3",
+    "description": "6.7 inch AMOLED, 150W fast charging, Dimensity 8100",
+    "price": 349.99,
+    "image": "https://images.unsplash.com/photo-1644670710008-2985f7d0a6e2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Mobile",
+    "specifications": {
+      "Display": "6.7-inch AMOLED, 120Hz",
+      "Processor": "MediaTek Dimensity 8100",
+      "RAM": "8GB/12GB",
+      "Storage": "128GB/256GB",
+      "Rear Camera": "50MP (Sony IMX766) + 8MP (ultrawide) + 2MP (macro)",
+      "Front Camera": "16MP",
+      "Battery": "4500mAh (150W version) / 5000mAh (80W version)",
+      "Charging": "150W UltraDart charging (0-50% in 5 minutes)",
+      "OS": "Realme UI 3.0 based on Android 12",
+      "Cooling System": "4129mm² stainless steel vapor chamber",
+      "Gaming Features": "GT Mode 3.0, X-axis linear motor"
+    },
+    "reviews": [
+      {
+        "author": "Kevin",
+        "rating": 5,
+        "comment": "150W charging is revolutionary - full charge in 15 mins!"
+      },
+      {
+        "author": "Lisa",
+        "rating": 4,
+        "comment": "Great performance for gaming at this price point"
+      },
+      {
+        "author": "Arjun",
+        "rating": 4,
+        "comment": "Camera performs well in daylight but struggles in low light"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Vivo X80 Pro",
+    "description": "6.78 inch AMOLED, 256GB, Zeiss optics, 50MP main camera",
+    "price": 899.99,
+    "image": "https://images.unsplash.com/photo-1644670710008-2985f7d0a6e2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Mobile",
+    "specifications": {
+      "Display": "6.78-inch LTPO AMOLED, 120Hz",
+      "Processor": "Snapdragon 8 Gen 1",
+      "RAM": "12GB",
+      "Storage": "256GB/512GB",
+      "Rear Camera": "50MP (GNV) + 48MP (ultrawide) + 12MP (portrait) + 8MP (periscope)",
+      "Front Camera": "32MP",
+      "Battery": "4700mAh, 80W wired + 50W wireless charging",
+      "Camera Features": "Zeiss T* coating, Gimbal Stabilization 2.0",
+      "OS": "Funtouch OS 12 based on Android 12",
+      "Audio": "Stereo speakers, CS43131 Hi-Fi chip",
+      "Security": "Ultrasonic fingerprint sensor"
+    },
+    "reviews": [
+      {
+        "author": "Daniel",
+        "rating": 5,
+        "comment": "The best camera phone I've ever used, especially for video"
+      },
+      {
+        "author": "Olivia",
+        "rating": 4,
+        "comment": "Zeiss optics make photos look professional"
+      },
+      {
+        "author": "Nathan",
+        "rating": 5,
+        "comment": "Gimbal stabilization is game-changing for video recording"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "iPhone 14 Pro Max",
+    "description": "6.7 inch Super Retina XDR, 1TB, A16 Bionic, 48MP camera",
+    "price": 1399.99,
+    "image": "https://images.unsplash.com/photo-1664474611585-9a0bb5e31b0b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Mobile",
+    "specifications": {
+      "Display": "6.7-inch Super Retina XDR with ProMotion (1-120Hz)",
+      "Processor": "A16 Bionic chip",
+      "RAM": "6GB",
+      "Storage": "128GB/256GB/512GB/1TB",
+      "Rear Camera": "48MP (main) + 12MP (ultrawide) + 12MP (telephoto)",
+      "Front Camera": "12MP TrueDepth with autofocus",
+      "Battery": "4323mAh, up to 29 hours video playback",
+      "New Features": "Dynamic Island, Always-On Display",
+      "Durability": "Ceramic Shield front, Surgical-grade stainless steel",
+      "Video": "4K Dolby Vision HDR up to 60fps",
+      "Connectivity": "5G, Wi-Fi 6, Bluetooth 5.3"
+    },
+    "reviews": [
+      {
+        "author": "Sarah",
+        "rating": 5,
+        "comment": "Dynamic Island is the most innovative feature in years"
+      },
+      {
+        "author": "Michael",
+        "rating": 5,
+        "comment": "48MP camera with pixel binning produces stunning photos"
+      },
+      {
+        "author": "Emma",
+        "rating": 4,
+        "comment": "Expensive but worth it for the best iPhone experience"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Asus ROG Zephyrus G14",
+    "description": "14-inch QHD, Ryzen 9 6900HS, RTX 3060, 32GB RAM, 1TB SSD",
+    "price": 1499.99,
+    "image": "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Laptop",
+    "specifications": {
+      "Display": "14-inch QHD (2560x1600) 120Hz, 100% DCI-P3",
+      "Processor": "AMD Ryzen 9 6900HS (8-core, up to 4.9GHz)",
+      "GPU": "NVIDIA RTX 3060 (6GB GDDR6)",
+      "RAM": "32GB DDR5 (4800MHz)",
+      "Storage": "1TB PCIe 4.0 NVMe SSD",
+      "Keyboard": "Per-key RGB backlit, 1.7mm travel",
+      "Battery": "76Wh, up to 10 hours",
+      "Ports": "2x USB-C (USB4), 2x USB-A, HDMI 2.0b, 3.5mm jack",
+      "Cooling": "Vapor chamber + dual Arc Flow fans",
+      "Weight": "1.72kg",
+      "Special Features": "AniMe Matrix LED lid display"
+    },
+    "reviews": [
+      {
+        "author": "Chris",
+        "rating": 5,
+        "comment": "Incredible performance in such a compact form factor"
+      },
+      {
+        "author": "Jennifer",
+        "rating": 4,
+        "comment": "AniMe Matrix is unique but impacts battery life"
+      },
+      {
+        "author": "Raj",
+        "rating": 5,
+        "comment": "The perfect balance between power and portability"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "HP Spectre x360",
+    "description": "13.5-inch 3K2K OLED, Core i7-1255U, 16GB RAM, 1TB SSD",
+    "price": 1299.99,
+    "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Laptop",
+    "specifications": {
+      "Display": "13.5-inch 3K2K (3000x2000) OLED, 100% DCI-P3",
+      "Processor": "Intel Core i7-1255U (10 cores, up to 4.7GHz)",
+      "RAM": "16GB LPDDR4x (4266MHz)",
+      "Storage": "1TB PCIe NVMe SSD",
+      "Design": "360° hinge, CNC aluminum chassis",
+      "Battery": "66Wh, up to 14 hours",
+      "Ports": "2x Thunderbolt 4, USB-A, HDMI 2.0, microSD",
+      "Security": "Fingerprint reader, IR camera for Windows Hello",
+      "Audio": "Quad speakers by Bang & Olufsen",
+      "Weight": "1.36kg",
+      "Pen Support": "HP Rechargeable MPP2.0 Tilt Pen included"
+    },
+    "reviews": [
+      {
+        "author": "Sophie",
+        "rating": 5,
+        "comment": "The OLED display is absolutely gorgeous"
+      },
+      {
+        "author": "Mark",
+        "rating": 4,
+        "comment": "Premium build quality but gets warm under load"
+      },
+      {
+        "author": "Aisha",
+        "rating": 5,
+        "comment": "Perfect 2-in-1 for creative professionals"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Lenovo ThinkPad X1 Carbon",
+    "description": "14-inch 4K, Core i7-1260P, 32GB RAM, 2TB SSD",
+    "price": 1899.99,
+    "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Laptop",
+    "specifications": {
+      "Display": "14-inch 4K (3840x2400) IPS, 500 nits, 100% AdobeRGB",
+      "Processor": "Intel Core i7-1260P (12 cores, up to 4.7GHz)",
+      "RAM": "32GB LPDDR5 (5200MHz)",
+      "Storage": "2TB PCIe 4.0 NVMe SSD",
+      "Keyboard": "Legendary ThinkPad keyboard with 1.5mm travel",
+      "Security": "Match-on-chip fingerprint reader, dTPM 2.0",
+      "Durability": "MIL-STD-810H tested, carbon fiber chassis",
+      "Battery": "57Wh, up to 10 hours (4K model)",
+      "Ports": "2x Thunderbolt 4, 2x USB-A, HDMI 2.0, Ethernet extension",
+      "Weight": "1.12kg",
+      "Connectivity": "Wi-Fi 6E, optional 5G WWAN"
+    },
+    "reviews": [
+      {
+        "author": "Thomas",
+        "rating": 5,
+        "comment": "The gold standard for business laptops"
+      },
+      {
+        "author": "Natalie",
+        "rating": 4,
+        "comment": "4K display is stunning but impacts battery life"
+      },
+      {
+        "author": "David",
+        "rating": 5,
+        "comment": "Best keyboard on any laptop, period"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Acer Predator Helios 300",
+    "description": "15.6-inch FHD 240Hz, Core i7-12700H, RTX 3070 Ti, 32GB RAM",
+    "price": 1699.99,
+    "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Laptop",
+    "specifications": {
+      "Display": "15.6-inch FHD (1920x1080) IPS, 240Hz, 3ms response",
+      "Processor": "Intel Core i7-12700H (14 cores, up to 4.7GHz)",
+      "GPU": "NVIDIA RTX 3070 Ti (8GB GDDR6, 150W TGP)",
+      "RAM": "32GB DDR4 (3200MHz)",
+      "Storage": "1TB PCIe NVMe SSD (2x M.2 slots)",
+      "Cooling": "5th Gen AeroBlade 3D fan technology",
+      "Keyboard": "RGB per-key backlit, Turbo mode key",
+      "Ports": "Thunderbolt 4, HDMI 2.1, MiniDP 1.4, Ethernet",
+      "Battery": "90Wh, up to 5 hours gaming",
+      "Special Features": "PredatorSense control system, Metal chassis"
+    },
+    "reviews": [
+      {
+        "author": "Liam",
+        "rating": 5,
+        "comment": "Handles all AAA games at max settings effortlessly"
+      },
+      {
+        "author": "Zara",
+        "rating": 4,
+        "comment": "Gets loud under heavy load but cooling is effective"
+      },
+      {
+        "author": "Kai",
+        "rating": 5,
+        "comment": "Best gaming laptop under $2000 right now"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Microsoft Surface Laptop 5",
+    "description": "15-inch PixelSense, Core i7-1255U, 16GB RAM, 512GB SSD",
+    "price": 1299.99,
+    "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Laptop",
+    "specifications": {
+      "Display": "15-inch PixelSense (2496x1664) touchscreen",
+      "Processor": "Intel Core i7-1255U (10 cores, up to 4.7GHz)",
+      "RAM": "16GB LPDDR5x",
+      "Storage": "512GB PCIe NVMe SSD",
+      "Design": "Aluminum chassis, 14.7mm thin",
+      "Keyboard": "Alcantara fabric-covered, 1.3mm travel",
+      "Battery": "47.4Wh, up to 18 hours",
+      "Ports": "2x USB-C (Thunderbolt 4), USB-A, Surface Connect",
+      "Camera": "720p HD with Windows Hello",
+      "Audio": "Omnisonic speakers with Dolby Atmos"
+    },
+    "reviews": [
+      {
+        "author": "Emma",
+        "rating": 4,
+        "comment": "Premium build quality and excellent touchscreen"
+      },
+      {
+        "author": "Noah",
+        "rating": 3,
+        "comment": "Port selection is limited for the price"
+      },
+      {
+        "author": "Ava",
+        "rating": 5,
+        "comment": "Most comfortable laptop keyboard I've used"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Razer Blade 15",
+    "description": "15.6-inch QHD 240Hz, Core i9-12900H, RTX 3080 Ti, 32GB RAM",
+    "price": 2999.99,
+    "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Laptop",
+    "specifications": {
+      "Display": "15.6-inch QHD (2560x1440) 240Hz, 100% DCI-P3",
+      "Processor": "Intel Core i9-12900H (14 cores, up to 5.0GHz)",
+      "GPU": "NVIDIA RTX 3080 Ti (16GB GDDR6, 165W TGP)",
+      "RAM": "32GB DDR5 (4800MHz)",
+      "Storage": "1TB PCIe 4.0 NVMe SSD (expandable)",
+      "Cooling": "Vapor chamber with liquid metal thermal compound",
+      "Keyboard": "RGB per-key lighting, 1.0mm travel",
+      "Ports": "Thunderbolt 4, HDMI 2.1, SD card reader",
+      "Battery": "80Wh, up to 6 hours",
+      "Build": "CNC aluminum unibody, 16.99mm thin"
+    },
+    "reviews": [
+      {
+        "author": "Ethan",
+        "rating": 5,
+        "comment": "Absolute beast for 4K gaming and content creation"
+      },
+      {
+        "author": "Mia",
+        "rating": 4,
+        "comment": "Expensive but the build quality justifies it"
+      },
+      {
+        "author": "James",
+        "rating": 5,
+        "comment": "The most powerful 15-inch laptop available"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Dell Alienware m15 R7",
+    "description": "15.6-inch FHD 360Hz, Ryzen 9 6900HX, RTX 3070 Ti, 32GB RAM",
+    "price": 2199.99,
+    "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Laptop",
+    "specifications": {
+      "Display": "15.6-inch FHD (1920x1080) 360Hz, 1ms response",
+      "Processor": "AMD Ryzen 9 6900HX (8 cores, up to 4.9GHz)",
+      "GPU": "NVIDIA RTX 3070 Ti (8GB GDDR6, 140W TGP)",
+      "RAM": "32GB DDR5 (4800MHz)",
+      "Storage": "1TB PCIe NVMe SSD (2x M.2 slots)",
+      "Cooling": "Cryo-Tech cooling with Element 31 thermal interface",
+      "Keyboard": "AlienFX per-key RGB, 1.8mm travel",
+      "Ports": "USB-C (DisplayPort/Power Delivery), HDMI 2.1",
+      "Battery": "86Wh, up to 6 hours",
+      "Design": "Dark Core RGB with hexagonal rear vents"
+    },
+    "reviews": [
+      {
+        "author": "Benjamin",
+        "rating": 5,
+        "comment": "360Hz display makes competitive gaming incredible"
+      },
+      {
+        "author": "Charlotte",
+        "rating": 4,
+        "comment": "Aggressive gamer aesthetic isn't for everyone"
+      },
+      {
+        "author": "Lucas",
+        "rating": 5,
+        "comment": "AMD CPU + Nvidia GPU combo works perfectly"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Apple MacBook Air M2",
+    "description": "13.6-inch Liquid Retina, M2 chip, 16GB RAM, 512GB SSD",
+    "price": 1299.99,
+    "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Laptop",
+    "specifications": {
+      "Display": "13.6-inch Liquid Retina (2560x1664), 500 nits",
+      "Processor": "Apple M2 chip (8-core CPU, 10-core GPU)",
+      "RAM": "16GB unified memory",
+      "Storage": "512GB SSD (up to 2TB available)",
+      "Design": "Thinest MacBook Air ever (11.3mm), 1.24kg",
+      "Battery": "Up to 18 hours video playback",
+      "Camera": "1080p FaceTime HD with M2 image signal processor",
+      "Audio": "Four-speaker sound system with Spatial Audio",
+      "Ports": "2x Thunderbolt/USB 4, MagSafe charging",
+      "Special Features": "Fanless design, Touch ID, macOS Monterey"
+    },
+    "reviews": [
+      {
+        "author": "Olivia",
+        "rating": 5,
+        "comment": "Unbelievable performance with no fan noise"
+      },
+      {
+        "author": "William",
+        "rating": 4,
+        "comment": "Wish it had more ports but the performance is stellar"
+      },
+      {
+        "author": "Sophia",
+        "rating": 5,
+        "comment": "The perfect balance of power and portability"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Bose QuietComfort 45",
+    "description": "Wireless noise cancelling headphones, 24-hour battery",
+    "price": 329.99,
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Audio",
+    "specifications": {
+      "Noise Cancellation": "Industry-leading ANC with Aware mode",
+      "Battery Life": "24 hours (ANC on), 30 min charge = 3 hours play",
+      "Sound": "TriPort acoustic architecture, balanced audio",
+      "Microphones": "Built-in mic for calls and voice assistants",
+      "Comfort": "Plush ear cushions, lightweight (238g)",
+      "Connectivity": "Bluetooth 5.1, wired option with 3.5mm",
+      "Controls": "Physical buttons for playback/calls",
+      "App Features": "Bose Music app with EQ adjustments",
+      "Colors": "Black, Smoke White",
+      "Special Features": "Quiet/Aware mode switching, dual-microphone system"
+    },
+    "reviews": [
+      {
+        "author": "Henry",
+        "rating": 5,
+        "comment": "The gold standard for noise cancellation"
+      },
+      {
+        "author": "Amelia",
+        "rating": 4,
+        "comment": "Extremely comfortable for long flights"
+      },
+      {
+        "author": "Daniel",
+        "rating": 5,
+        "comment": "Battery life lasts multiple international flights"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Sony WH-1000XM5",
+    "description": "Premium noise cancelling headphones, 30-hour battery",
+    "price": 399.99,
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Audio",
+    "specifications": {
+      "Noise Cancellation": "New V1 Integrated Processor with Auto NC Optimizer",
+      "Battery Life": "30 hours (ANC on), 3 min charge = 3 hours play",
+      "Sound": "New 30mm drivers with Carbon Fiber Composite domes",
+      "Call Quality": "4 beamforming mics with AI noise reduction",
+      "Comfort": "Ultra-soft fit leather, 250g weight",
+      "Connectivity": "Bluetooth 5.2, LDAC support, multipoint pairing",
+      "Controls": "Touch controls with wear detection",
+      "App Features": "Sony Headphones Connect app with 360 Reality Audio",
+      "Colors": "Black, Silver",
+      "Special Features": "Speak-to-Chat, DSEE Extreme upscaling"
+    },
+    "reviews": [
+      {
+        "author": "Ella",
+        "rating": 5,
+        "comment": "Best ANC headphones on the market right now"
+      },
+      {
+        "author": "Jack",
+        "rating": 4,
+        "comment": "Touch controls can be finicky but sound is amazing"
+      },
+      {
+        "author": "Grace",
+        "rating": 5,
+        "comment": "The auto noise cancelling adjustment works perfectly"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Nikon Z9",
+    "description": "Full-frame mirrorless camera, 45.7MP, 8K video",
+    "price": 5499.99,
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Camera",
+    "specifications": {
+      "Sensor": "45.7MP stacked CMOS full-frame sensor",
+      "Processor": "Dual EXPEED 7 image processors",
+      "ISO Range": "64-25600 (expandable to 32-102400)",
+      "Autofocus": "493-point phase-detection, subject detection",
+      "Video": "8K/30p, 4K/120p, N-Log & ProRes RAW",
+      "Viewfinder": "3.69M-dot OLED EVF with 120Hz refresh",
+      "LCD": "3.2-inch 4-axis tilting touchscreen (2.1M dots)",
+      "Burst Shooting": "20fps RAW (30fps JPEG) with pre-capture",
+      "Stabilization": "5-axis in-body (up to 6 stops compensation)",
+      "Special Features": "No mechanical shutter, 4K/60p oversampled from 8K"
+    },
+    "reviews": [
+      {
+        "author": "Robert",
+        "rating": 5,
+        "comment": "The ultimate professional mirrorless camera"
+      },
+      {
+        "author": "Hannah",
+        "rating": 5,
+        "comment": "8K video quality rivals cinema cameras"
+      },
+      {
+        "author": "George",
+        "rating": 4,
+        "comment": "Heavy but worth it for the performance"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Fujifilm X-T5",
+    "description": "APS-C mirrorless camera, 40.2MP, 6K video",
+    "price": 1699.99,
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Camera",
+    "specifications": {
+      "Sensor": "40.2MP X-Trans CMOS 5 HR APS-C",
+      "Processor": "X-Processor 5 (2x faster than X-Processor 4)",
+      "ISO Range": "125-12800 (expandable to 64-51200)",
+      "Autofocus": "425-point hybrid AF with subject detection",
+      "Video": "6.2K/30p, 4K/60p, F-Log2 (13+ stops dynamic range)",
+      "Viewfinder": "3.69M-dot OLED EVF with 0.8x magnification",
+      "LCD": "3-inch 3-way tilting touchscreen (1.84M dots)",
+      "Burst Shooting": "15fps mechanical shutter (20fps electronic)",
+      "Stabilization": "5-axis IBIS (up to 7 stops compensation)",
+      "Special Features": "Film Simulation modes, weather-resistant body"
+    },
+    "reviews": [
+      {
+        "author": "Sophie",
+        "rating": 5,
+        "comment": "Fujifilm colors straight out of camera are magical"
+      },
+      {
+        "author": "Tom",
+        "rating": 4,
+        "comment": "Perfect balance of retro controls and modern tech"
+      },
+      {
+        "author": "Lily",
+        "rating": 5,
+        "comment": "The best APS-C camera for photography purists"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Apple Watch Ultra",
+    "description": "49mm Titanium case, Retina display, GPS + Cellular",
+    "price": 799.99,
+    "image": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Wearable",
+    "specifications": {
+      "Case": "49mm aerospace-grade titanium",
+      "Display": "Always-On Retina (2000 nits brightness)",
+      "Chip": "Apple S8 with 64-bit dual-core processor",
+      "Sensors": "ECG, blood oxygen, temperature, depth gauge",
+      "Battery": "36 hours (60 hours in low power mode)",
+      "Durability": "IP6X dust resistant, 100m water resistant",
+      "Connectivity": "GPS + Cellular, Wi-Fi, Bluetooth 5.3",
+      "Health Features": "Crash detection, heart rate monitoring",
+      "Special Features": "Action button, dual-frequency GPS, siren",
+      "Compatibility": "Requires iPhone 8 or later with iOS 16+"
+    },
+    "reviews": [
+      {
+        "author": "Ryan",
+        "rating": 5,
+        "comment": "Finally an Apple Watch for extreme sports"
+      },
+      {
+        "author": "Zoe",
+        "rating": 4,
+        "comment": "Battery life is great but still needs daily charging"
+      },
+      {
+        "author": "Dylan",
+        "rating": 5,
+        "comment": "The brightest display I've seen on any smartwatch"
+      }
+    ]
+  },
+
+    {
+      "id": 21,
+      "title": "Samsung Galaxy Watch 5 Pro",
+      "description": "45mm Titanium, Wear OS, LTE, ECG monitoring",
+      "price": 449.99,
+      "image": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "Wearable",
+      "specifications": {
+        "Display": "1.4-inch Super AMOLED (450x450), Sapphire Crystal",
+        "Processor": "Exynos W920 Dual-Core 1.18GHz",
+        "RAM": "1.5GB",
+        "Storage": "16GB",
+        "Battery": "590mAh (up to 80 hours)",
+        "Durability": "IP68, MIL-STD-810H",
+        "Sensors": "BioActive (HR, ECG, BIA), Accelerometer, Gyro",
+        "Connectivity": "LTE, Bluetooth 5.2, Wi-Fi, NFC",
+        "Health Features": "Body Composition, Sleep Coaching",
+        "Special Features": "GPX route tracking, D-Buckle Sport Band"
+      },
+      "reviews": [
+        {
+          "author": "Tyler",
+          "rating": 4,
+          "comment": "Best Android smartwatch with incredible battery life"
+        },
+        {
+          "author": "Nina",
+          "rating": 5,
+          "comment": "Body composition analysis is surprisingly accurate"
+        },
+        {
+          "author": "Aaron",
+          "rating": 4,
+          "comment": "Titanium build feels premium but slightly heavy"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Xbox Series X",
+      "description": "1TB SSD, 4K gaming at 120FPS, 12 teraflops",
+      "price": 499.99,
+      "image": "https://images.unsplash.com/photo-1607853202273-797f1c22a38e?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "Gaming",
+      "specifications": {
+        "Processor": "Custom AMD Zen 2 (8-core, 3.8GHz)",
+        "GPU": "12 TFLOPS, 52 CUs at 1.825GHz",
+        "Memory": "16GB GDDR6",
+        "Storage": "1TB NVMe SSD (Expandable)",
+        "Resolution": "4K at 120FPS, 8K ready",
+        "Features": "Ray Tracing, VRR, Auto HDR",
+        "Backward Compatibility": "Thousands of Xbox One/360/OG games",
+        "Optical Drive": "4K UHD Blu-ray",
+        "Ports": "HDMI 2.1, USB 3.2, Ethernet",
+        "Special Features": "Quick Resume, Smart Delivery"
+      },
+      "reviews": [
+        {
+          "author": "Marcus",
+          "rating": 5,
+          "comment": "Silent operation even during intensive gaming"
+        },
+        {
+          "author": "Lara",
+          "rating": 5,
+          "comment": "Quick Resume feature is game-changing"
+        },
+        {
+          "author": "Derek",
+          "rating": 4,
+          "comment": "Wish it had more exclusive launch titles"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Nintendo Switch OLED",
+      "description": "7-inch OLED screen, 64GB storage, Joy-Con controllers",
+      "price": 349.99,
+      "image": "https://images.unsplash.com/photo-1607853202273-797f1c22a38e?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "Gaming",
+      "specifications": {
+        "Display": "7-inch 720p OLED touchscreen",
+        "Storage": "64GB internal (expandable via microSD)",
+        "Dock": "Includes LAN port for wired internet",
+        "Audio": "Enhanced speakers for handheld mode",
+        "Battery": "4.5-9 hours (varies by game)",
+        "Controllers": "Joy-Cons with improved rail design",
+        "Connectivity": "Wi-Fi, Bluetooth 4.1",
+        "Resolution": "1080p docked / 720p handheld",
+        "Special Features": "Adjustable stand, Nintendo Online support",
+        "Colors": "White, Neon Red/Blue"
+      },
+      "reviews": [
+        {
+          "author": "Sophie",
+          "rating": 5,
+          "comment": "OLED screen makes colors pop in handheld mode"
+        },
+        {
+          "author": "Ethan",
+          "rating": 4,
+          "comment": "Same performance as original but better display"
+        },
+        {
+          "author": "Maya",
+          "rating": 5,
+          "comment": "Perfect for Nintendo exclusives and indie games"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Samsung QN90B Neo QLED",
+      "description": "55 inch 4K Smart TV, Quantum HDR 32x, 144Hz",
+      "price": 1499.99,
+      "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "TV",
+      "specifications": {
+        "Display": "55-inch Neo QLED (Quantum Mini LED)",
+        "Resolution": "4K UHD (3840x2160) 144Hz",
+        "HDR": "Quantum HDR 32x, HDR10+ Adaptive",
+        "Processor": "Neo Quantum Processor 4K",
+        "Gaming": "FreeSync Premium Pro, 5.8ms response",
+        "Sound": "Object Tracking Sound+, Dolby Atmos",
+        "Smart Features": "Tizen OS with Bixby/Alexa/Google Assistant",
+        "Connectivity": "4x HDMI 2.1, Wi-Fi 6, Bluetooth 5.2",
+        "Design": "Infinity One Design, SolarCell Remote",
+        "Special Features": "Ultra Viewing Angle, Multi View"
+      },
+      "reviews": [
+        {
+          "author": "Robert",
+          "rating": 5,
+          "comment": "Brightest TV I've ever seen - perfect for sunny rooms"
+        },
+        {
+          "author": "Linda",
+          "rating": 5,
+          "comment": "Quantum Mini LEDs eliminate blooming completely"
+        },
+        {
+          "author": "Ken",
+          "rating": 4,
+          "comment": "Expensive but worth it for the picture quality"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "LG C2 OLED",
+      "description": "48 inch 4K Smart TV, α9 Gen 5 AI Processor, 120Hz",
+      "price": 1299.99,
+      "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "TV",
+      "specifications": {
+        "Display": "48-inch OLED evo (self-lit pixels)",
+        "Resolution": "4K UHD (3840x2160) 120Hz",
+        "Processor": "α9 Gen 5 AI Processor 4K",
+        "HDR": "Dolby Vision IQ, HDR10 Pro, HLG",
+        "Gaming": "G-Sync, FreeSync Premium, 1ms response",
+        "Sound": "AI Sound Pro (40W), Dolby Atmos",
+        "Smart Features": "webOS 22 with Magic Remote",
+        "Connectivity": "4x HDMI 2.1, Wi-Fi 5, Bluetooth 5.0",
+        "Design": "Gallery Design (ultra-thin)",
+        "Special Features": "Filmmaker Mode, Sports Alert"
+      },
+      "reviews": [
+        {
+          "author": "David",
+          "rating": 5,
+          "comment": "Perfect blacks make movies look incredible"
+        },
+        {
+          "author": "Sarah",
+          "rating": 5,
+          "comment": "Best TV for both movies and gaming"
+        },
+        {
+          "author": "Mike",
+          "rating": 4,
+          "comment": "Slightly less bright than QLED but better contrast"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Logitech MX Keys",
+      "description": "Wireless illuminated keyboard, multi-device connectivity",
+      "price": 99.99,
+      "image": "https://images.unsplash.com/photo-1527814050087-3793815479db?q=80&w=1928&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "FlashDeals",
+      "specifications": {
+        "Type": "Full-size wireless keyboard",
+        "Connectivity": "Bluetooth or USB receiver (Unifying)",
+        "Compatibility": "Windows/macOS/iOS/Android/Linux",
+        "Backlighting": "Auto-adjusting white backlight",
+        "Battery": "Up to 10 days backlight/5 months without",
+        "Multi-Device": "Pair with 3 devices, easy-switching",
+        "Keys": "Scissor mechanism with 4mm travel",
+        "Materials": "Premium construction with metal base",
+        "Special Keys": "Smart backlight, emoji key, calculator",
+        "Dimensions": "430 x 131 x 20mm, 810g"
+      },
+      "reviews": [
+        {
+          "author": "Anna",
+          "rating": 5,
+          "comment": "Best keyboard I've used for typing comfort"
+        },
+        {
+          "author": "Tom",
+          "rating": 4,
+          "comment": "Wish it had mechanical switches but still excellent"
+        },
+        {
+          "author": "Priya",
+          "rating": 5,
+          "comment": "Perfect for switching between PC and Mac"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Samsung T9 Portable SSD",
+      "description": "2TB USB 3.2 Gen 2x2, 2000MB/s read speed",
+      "price": 199.99,
+      "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "FlashDeals",
+      "specifications": {
+        "Capacity": "2TB (1TB/4TB options available)",
+        "Interface": "USB 3.2 Gen 2x2 (20Gbps)",
+        "Speeds": "Up to 2,000MB/s read, 2,000MB/s write",
+        "Encryption": "Hardware AES 256-bit encryption",
+        "Durability": "3m drop resistance, metal casing",
+        "Compatibility": "Windows/macOS/Android/Linux",
+        "Dimensions": "88 x 60 x 14mm, 122g",
+        "Included": "USB-C to C and USB-C to A cables",
+        "Warranty": "5-year limited warranty",
+        "Special Features": "Dynamic Thermal Guard for heat control"
+      },
+      "reviews": [
+        {
+          "author": "Daniel",
+          "rating": 5,
+          "comment": "Blazing fast transfers for 4K video editing"
+        },
+        {
+          "author": "Emma",
+          "rating": 4,
+          "comment": "Gets warm during extended transfers but no throttling"
+        },
+        {
+          "author": "Ryan",
+          "rating": 5,
+          "comment": "Perfect for photographers needing fast backups"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Google Nest Hub (2nd Gen)",
+      "description": "7-inch smart display with Google Assistant, sleep tracking",
+      "price": 99.99,
+      "image": "https://images.unsplash.com/photo-1546054454-aa26e2b734c7?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "FlashDeals",
+      "specifications": {
+        "Display": "7-inch touchscreen (1024x600)",
+        "Audio": "Full-range speaker with 50% more bass",
+        "Microphone": "3 far-field mics with mute switch",
+        "Smart Features": "Google Assistant with continued conversations",
+        "Health": "Sleep Sensing (no camera, uses radar)",
+        "Connectivity": "Wi-Fi 5, Bluetooth 5.0",
+        "Compatibility": "Works with 30,000+ smart devices",
+        "Colors": "Chalk, Charcoal, Sand, Mist",
+        "Power": "15W power adapter, no battery",
+        "Special Features": "Gesture controls, photo frame mode"
+      },
+      "reviews": [
+        {
+          "author": "Lisa",
+          "rating": 4,
+          "comment": "Sleep tracking works surprisingly well without cameras"
+        },
+        {
+          "author": "Kevin",
+          "rating": 5,
+          "comment": "Perfect kitchen companion for recipes and timers"
+        },
+        {
+          "author": "Nina",
+          "rating": 4,
+          "comment": "Display could be brighter but audio quality is great"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Apple HomePod mini",
+      "description": "Smart speaker with Siri, spatial audio, multi-room",
+      "price": 99.99,
+      "image": "https://images.unsplash.com/photo-1546054454-aa26e2b734c7?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "FlashDeals",
+      "specifications": {
+        "Dimensions": "84.3mm height, 97.9mm width",
+        "Weight": "345g",
+        "Driver": "Full-range driver with dual passive radiators",
+        "Processor": "Apple S5 chip",
+        "Microphone": "4 far-field mics with echo cancellation",
+        "Audio": "360° sound with computational audio",
+        "Connectivity": "Wi-Fi 4, Bluetooth 5.0, Thread support",
+        "Compatibility": "Requires iPhone/iPad with iOS 14+",
+        "Colors": "White, Space Gray, Yellow, Blue, Orange",
+        "Special Features": "Intercom, Sound Recognition, Ultra Wideband"
+      },
+      "reviews": [
+        {
+          "author": "Jason",
+          "rating": 5,
+          "comment": "Unbelievable sound quality for its size"
+        },
+        {
+          "author": "Sophia",
+          "rating": 4,
+          "comment": "Siri still lags behind Google Assistant"
+        },
+        {
+          "author": "Ethan",
+          "rating": 5,
+          "comment": "Perfect for Apple ecosystem users"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Anker 737 Power Bank",
+      "description": "24,000mAh, 140W GaN charger, PD 3.1 compatible",
+      "price": 149.99,
+      "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "FlashDeals",
+      "specifications": {
+        "Capacity": "24,000mAh (88Wh) - FAA approved",
+        "Output": "140W max (USB-C PD 3.1)",
+        "Ports": "2x USB-C, 1x USB-A",
+        "Input": "140W fast charging (0-100% in 1.5 hours)",
+        "Compatibility": "MacBook Pro 16",
+        "Display": "Smart digital display (remaining power/time)",
+        "Safety": "MultiProtect safety system",
+        "Dimensions": "150 x 75 x 27mm, 544g",
+        "Included": "100W USB-C to C cable",
+        "Special Features": "GaN II technology, can charge 3 devices"
+      },
+      "reviews": [
+        {
+          "author": "Alex",
+          "rating": 5,
+          "comment": "Charges my MacBook Pro faster than the wall charger"
+        },
+        {
+          "author": "Mia",
+          "rating": 4,
+          "comment": "Heavy but worth it for the power capacity"
+        },
+        {
+          "author": "Raj",
+          "rating": 5,
+          "comment": "The display showing remaining charge time is genius"
+        }
+      ]
+    }
+  ]
